@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.site-logo-container{
+    align-items: center;
+}
+
+.lg-image{
+    display:block;
+    float: left;
+    text-decoration:none;
+    max-width: 60%;
+    height:auto !important;
+}
+
+.sticky-bar .sticky-bar-inner {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sticky-bar>.sticky-bar-inner .search-panel {
+    justify-content: center;
+    flex: 1;
+}
+
+.sticky-bar {
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.08);
+    background: #FFF;
+}
+
+.js_temp_friend_search_form {
+    position: absolute;
+    width: auto;
+    z-index: 2000;
+}
+.sticky-bar .header_search_form {
+    margin-bottom: 0;
+}
+
+.header_search_form input.form-control {
+    padding-right: 64px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+
+.input-sm{
+    height: 32px;
+    border-radius: 2px;
+}
+
+.guest-login-small {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.guest-login-small>a.btn {
+    margin-left: 8px;
+}
+
+.h-6 {
+    height: 60px;
+}
+
+.wh-container{
+    float: left;
+    width: 50%;
+}
+
+.signin-container{
+    display: block;
+    padding: 100px;
+}
+
+.signin-container section {
+    display: block;
+}
+
+.signin-container section label {
+    background: #ccc;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 20px;
+    position: relative;
+    width: 180px;
+    z-index:100;
+}
+
+/* Style the tab */
+.tab {
+    position: relative;
+    top: 140px;
+    left: 15px;
+    float: left;
+    width: 30%;
+    transform: rotate(270deg);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 15px;
+    float: left;
+    width: 50%;
+    border: 1px solid #000000;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class
+.tab button.active {
+    background-color: #ccc;
+}*/
+
+.tab button {
+    width: 110px;
+    border-radius: 15px;
+    background-color: #d9ab0c;
+    font-size: 20px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Averta";
+}
+
+.tab .second-link {
+    background-color: #4883c0;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background: #ffffff;
+    position: relative;
+    left: -83px;
+    float: left;
+    padding: 30px 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 50%;
+    height: 470px;
+}
+
+input[type=text],input[type=password],input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
